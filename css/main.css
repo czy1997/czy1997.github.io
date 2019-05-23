@@ -1765,7 +1765,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #afb14f;
+  background: #ff4782;
 }
 .feed-link,
 .chat {
@@ -2712,4 +2712,12 @@ hr {
   padding: 25px;
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.sidebar {
+  background: url("../../images/sildeBarBg.jpg") no-repeat !important;
+  background-size: cover !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
 }
